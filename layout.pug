@@ -1,0 +1,25 @@
+html
+    head
+        title Aldis Media Centre Created by Sam
+        meta(name="viewport", value="initial-width=viewport-width; initial-scale=1")
+
+        link(rel="stylesheet", href="static/index.scss")
+        link(rel="stylesheet", href="static/APlayer.min.css", type="text/scss")
+    body
+        nav.container
+            ul.button--area
+                li
+                    label.title MediaCentre
+                li
+                    a.btn--nav(href="/") Home
+                li
+                    a.btn--nav(href="/audio") Play Audio
+                li
+                    a.btn--nav(href="/video") Cast Video
+        .main--content
+            block content
+        block scripts
+    footer
+        span.madeby Created with
+            span(style="color: red;") ❤
+            span by Sam Aldis @ ukjp

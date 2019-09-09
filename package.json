@@ -1,0 +1,30 @@
+{
+  "name": "Media_Centre",
+  "version": "1.0.0",
+  "description": "MediaCentre For Raspery Pi",
+  "main": "index.js",
+  "repository": "https://github.com/sam-aldis/mediacentre",
+  "author": "Sam Aldis",
+  "license": "MIT",
+  "scripts": {
+        "dev" : "parcel ./index.pug",
+        "build" : "tsc && node-sass static/*.scss && parcel build *.pug"
+    },
+  "private": true,
+  "dependencies": {
+    "socket.io": "^2.2.0",
+    "media-stream-library": "^6.0.3",
+    "tslib": "^1.10.0",
+    "stream-browserify": "^2.0.2",
+    "node-sass": "^4.12.0",
+    "aplayer": "^1.10.1",
+    "ejs": "^2.7.1",
+    "parcel": "^1.12.3",
+    "playercast": "^1.0.0",
+    "pug": "^2.0.4",
+    "typescript": "^3.6.2"
+  },
+  "devDependencies": {
+    "sass": "^1.23.0-module.beta.1"
+  }
+}
