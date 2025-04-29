@@ -21,7 +21,7 @@
     "ejs": "^2.7.1",
     "parcel": "^1.12.3",
     "playercast": "^1.0.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.3",
     "typescript": "^3.6.2"
   },
   "devDependencies": {
